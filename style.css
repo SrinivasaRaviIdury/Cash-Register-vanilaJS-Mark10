@@ -3,9 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(226, 226, 226);
+}
 .cash-register-main {
-  width: 50vw;
+  width: 70vw;
   margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cash-register-main h1 {
+  margin: 1rem 0;
+}
+.cash-register-main p {
+  margin: 1rem 0;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-form label {
+  margin: 0.2rem 0;
+}
+.input-form input {
+  margin: 0.3rem 0;
+}
+
+.input-form button {
+  width: 8rem;
+  height: 1.5rem;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  color: white;
+}
+caption {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  padding: 0.8rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
